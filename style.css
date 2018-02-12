@@ -1,0 +1,115 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#register_output{
+  text-align: center;
+  font-size: 18px;
+}
+.fail{
+  color: red;
+  margin: 0;
+}
+.success{
+  color: green;
+  margin: 0;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+}
+h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 45px 0 1px 0;
+  text-align: center;
+}
+.line{
+  height: 3px;
+  width: 150px;
+  background: #26A9E0;
+  margin: 0 auto 30px auto;
+}
+h2{
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 4px;
+  margin: 20px 0 10px 0;
+}
+input{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 0.5px solid #c0c1c4;
+  border-radius: 6px;
+  width: 250px;
+  height: 30px;
+  font-size: 17px;
+}
+#register{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: black;
+  padding: 8px 14px;
+  margin: 40px 0 20px 0;
+}
+#register:hover{
+  border: 1px solid white;
+  background-color: #0250C5;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+a:hover{
+  color: #0250C5;
+}
+.link{
+  text-align: right;
+  margin: 2px;
+}
+
+/* LIST */
+
+table{
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 65vw;
+  border-collapse: collapse;
+}
+th{
+  height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 25px;
+  color: white;
+  background-color: #0250C5;
+}
+td{
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+  border: none;
+}
+tr:nth-child(2n+1){
+  background-color: #E3EEF8;
+}
+.email{
+  width: 33%;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
